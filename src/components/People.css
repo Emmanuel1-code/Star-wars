@@ -1,0 +1,104 @@
+.people-page{
+    background-color: #f6f6f6;
+    padding-left: 40px;
+    padding-right: 0px;
+    
+    flex-grow: 1;
+}
+.people-page-container{
+    margin-bottom: 40px;
+    display: grid;
+    padding-top: 5px;
+    height: 900px;
+    width: 950px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.people-page-layout{
+    margin-top: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    border: 1px solid #dbe3ee;
+    border-radius: 10px;
+}
+.person-item{
+    display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  align-items: center;
+  text-align: center;
+  padding: 17px;
+  background-color: white;
+  margin-left: 15px;
+  height: 90px;
+  margin-right: 15px;
+}
+.personspbutton{
+  text-decoration: none;
+color: black;
+padding: 5px;
+padding-right: 82px;
+border-right: 5px solid rgb(255, 208, 0);
+}
+.person-item:hover{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+.my-dash-button{
+  text-decoration: none;
+  color: #859BBCF5;
+padding: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 16px;
+padding-bottom: 20px;
+font-weight: 600;
+
+padding-left: 20px;
+padding-right: 32px;
+background-color: white;
+border: none;
+
+}
+.mydashbutton{
+  text-decoration: none;
+  color: #859BBCF5;
+padding: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 16px;
+padding-bottom: 25px;
+font-weight: 600;
+padding-top: 25px;
+
+padding-left: 20px;
+padding-right: 32px;
+background-color: white;
+border: none;
+}
+.person-image{
+    width: 50px;
+    height: 50px;
+    margin-top: px;
+    padding: px;
+    
+    border-radius: 50px;
+    margin-left: -70px;
+}
+.people-checkbox{
+    margin-left: -80px;
+}
+p.person-name{
+    margin-left: -210px;
+    word-wrap: break-word;
+    padding-left: 48px;
+   
+  }
+  .birth-year{
+    margin-left: -90px;
+  }
+  .person-sidebar {
+    background-color: #ffffff;
+    border: 1px solid #dbe3ee;
+    width: 250px;
+    height: 1550px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  

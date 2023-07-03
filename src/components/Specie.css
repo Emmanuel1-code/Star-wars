@@ -1,0 +1,47 @@
+.specie-item{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    text-align: center;
+    padding: 17px;
+    background-color: white;
+    margin-left: 15px;
+    height: 90px;
+    margin-right: 15px;
+}
+.specie-item:hover{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    padding-left: 600px;
+    margin-right: -700px;
+    
+}
+.icon{
+    padding: 1px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.language{
+  margin-right: 30px;
+}
+p.speciename{
+    margin-left: -200px;
+}
+p.specieclass{
+   margin-left: -190px;
+}
+p.speciedesign{
+    margin-left: -120px;
+}
+p.specieheight{
+    margin-left: -90px;
+}
+p.specielife{
+  margin-left: -70px;
+}
+p.specieskin{
+margin-left: -50px;
+}

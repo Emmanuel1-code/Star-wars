@@ -1,0 +1,326 @@
+.starship-container {
+  display: flex;
+  
+}
+
+
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-layout {
+  
+  
+  height: 530px;
+  display: flex;
+}
+
+.bottom-layout {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.top-layout-sidebar{
+  background-color: #ffffff;
+  border-right: 1px solid #dbe3ee;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.top-layout-main{
+  flex-grow: 1;
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.top-main{
+  background-color: #f6f6f6;
+ 
+  margin-top: 10px;
+  flex-grow: 1;
+}
+.top-main-content{
+  margin-bottom: 40px;
+  display: grid;
+  padding-top: 5px;
+  height: 200px;
+  
+  grid-template-columns: repeat(1, 1fr);
+}
+.top-main-layout{
+  background-color: #ffffff;
+  border-right: 1px solid #dbe3ee;
+  border-top:  1px solid #dbe3ee;
+  border-top-left-radius: 10px;
+  height: 392px;
+}
+.bottom-main-layout{
+  background-color: #ffffff;
+  border: 1px solid #dbe3ee;
+  border-top-left-radius: 10px;
+  height: 530px;
+}
+.bottom-main-content{
+  margin-bottom: 40px;
+  display: grid;
+  padding-top: 5px;
+  height: 200px;
+  
+  grid-template-columns: repeat(1, 1fr);
+}
+.bottom-main-content{
+  margin-bottom: 40px;
+  display: grid;
+  padding-top: 5px;
+  height: 200px;
+  
+  grid-template-columns: repeat(1, 1fr);
+}
+.bottom-main{
+  background-color: #f6f6f6;
+  height: 300px;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+.Starshipbutton:focus{
+  color: black;
+border-right: 5px solid rgb(255, 208, 0);
+
+}
+.Starshipbutton{
+  font-size: 16px;
+background: none;
+border-top: none;
+border-left: none;
+border-bottom: none;
+border-right: 5px solid rgb(200, 255, 0);
+padding: 9px;
+padding-right: 82px;
+margin-bottom: 30px;
+font-weight: 600;
+color: black;
+justify-content: space-between;
+}
+.starship-item {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  align-items: center;
+  text-align: center;
+  padding: 17px;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.starship-item:hover{
+  background-color: #f6f6f6;
+  
+} 
+.starship-item p {
+height: 70px;
+line-height: 2em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-top: 10px;
+
+}
+li.cost {
+  margin-right: -80px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+li.speed {
+  margin-right: 30px;
+}
+li.model{
+  padding-left: 120px;
+}
+li.class{
+  padding-left: 60px;
+  padding-right: -90px;
+}
+li.cargo{
+  padding-left: 40px;
+}
+li.crew{
+  padding-left: 50px;
+  margin-right: -20px;
+}
+li.length{
+  padding-left: -60px;
+  margin-right: -60px;
+  padding-right: 20px;
+}
+li.passenger{
+
+  padding-left: 80px;
+}
+li.name{
+  padding-left: 20px;
+  margin-right: -40px;
+}
+.starship-checkbox{
+
+  margin-top: -40px;
+  margin-left: -115px;
+  margin-right: 5px;
+ }
+p.names{
+  margin-left: -190px;
+  word-wrap: break-word;
+  padding-left: 48px;
+ 
+}
+p.model{
+  margin-left: -30px;
+}
+
+.starshiptop-nav{
+display: flex;
+align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.starshiptop-nav > div {
+margin-right: 0px;
+}
+.back{
+font-size: 17px;
+font-weight: 500;
+margin-right: 10px;
+padding: 10px;
+margin-left: 20px;
+margin-top: -35px;
+cursor: pointer;
+
+}
+.nav-content1{
+display: flex;
+align-items: center;
+}
+.arrowleft{
+font-size: 27px;
+font-weight: 900;
+margin-left: 25px;
+cursor: pointer;
+color: black;
+text-decoration: none;
+}
+.total{
+font-size: 17px;
+font-weight: 500;
+margin-right: 10px;
+padding: 10px;
+margin-left: 5px;
+cursor: pointer;
+}
+.showing{
+font-size: 17px;
+font-weight: 500;
+margin-right: 10px;
+padding: 10px;
+margin-left: 5px;
+cursor: pointer;
+}
+.arrow-left,.arrow-right{
+font-size: 27px;
+font-weight: 900;
+
+padding: 10px;
+margin-left: 10px;
+cursor: pointer;
+color: black;
+text-decoration: none;
+}
+.nav-searchbar{
+display: flex;
+align-items: center;
+padding-left: 25px;
+color: #494949;
+margin-right: 30px;
+margin-top: 9px;
+margin-left: 170px;
+width: 250px;
+height: 40px;
+font-size: 16px;
+font-weight: 500;
+border: 1px solid rgb(194, 190, 190);
+border-radius: 5px;
+}
+
+.nav-searchbar:hover{
+outline: none;
+border-color: rgb(194, 190, 190);
+box-shadow: 0 0 5px red;
+}
+
+.nav-searchbar:focus{
+outline: none;
+border-color: rgb(194, 190, 190);
+box-shadow: 0 0 5px #007bff;
+}
+.search-icon{
+margin-right: 5px;
+position: relative;
+left: -274px;
+top: 4px;
+color: #868686;
+}
+.starship-not-available{
+  padding: 200px;
+  height: 20px;
+  padding-top: 40px;
+  padding-left: 500px;
+  font-size: 35px;
+  background-color: white;
+}
+.side-content{
+font-size: 18px;
+background: none;
+border: none;
+padding: px;
+padding-right: px;
+margin-bottom: 30px;
+font-weight: 600;
+justify-content: space-between;
+text-decoration: none;
+}
+.vehiclebutton {
+text-decoration: none;
+color: #859BBCF5;
+padding: 10px;
+}
+.Starshipbutton{
+text-decoration: none;
+padding-top: 10px;
+color: #859BBCF5;
+padding-right: 82px;
+color: black;
+border-right: 5px solid rgb(255, 208, 0);
+padding-left: 10px;
+
+}
+.dashbutton{
+text-decoration: none;
+color: #859BBCF5;
+padding: 10px;
+
+}
+.peoplebutton{
+text-decoration: none;
+color: #859BBCF5;
+padding: 10px;
+}
+.speciesbutton{
+text-decoration: none;
+color: #859BBCF5;
+
+padding-left: 5px;
+}
+.speciebasket{
+margin-left: 70px;
+}

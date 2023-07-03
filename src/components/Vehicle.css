@@ -1,0 +1,30 @@
+.vehicle-item {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    text-align: center;
+    padding: 17px;
+    background-color: white;
+    margin-left: 15px;
+    height: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    
+  }
+  .vehicle-item:hover{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+  }
+  .vehicle-checkbox{
+    margin-left: -80px;
+  }
+  .vehicle-name{
+    margin-left: -210px;
+    word-wrap: break-word;
+    padding-left: 48px;
+   
+  }
+  .vehicle-model{
+    margin-left: -90px;
+  }
+  
